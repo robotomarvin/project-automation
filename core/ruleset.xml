@@ -2,6 +2,7 @@
 <ruleset name="AcmeProject">
     <rule ref="PSR12">
         <exclude name="Generic.PHP.LowerCaseConstant.Found"/>
+        <exclude name="PSR1.Files.SideEffects.FoundWithSymbols"/>
     </rule>
     <rule ref="Generic.PHP.UpperCaseConstant.Found"/>
 </ruleset>

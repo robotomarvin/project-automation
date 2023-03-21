@@ -6,7 +6,6 @@ namespace ProjectAutomatization\Builder;
 
 readonly class Action
 {
-
     /**
      * @param string $type
      * @param array<string, string> $inputs
