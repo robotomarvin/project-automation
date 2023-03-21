@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ruleset name="AcmeProject">
+    <rule ref="PSR12">
+        <exclude name="Generic.PHP.LowerCaseConstant.Found"/>
+    </rule>
+    <rule ref="Generic.PHP.UpperCaseConstant.Found"/>
+</ruleset>

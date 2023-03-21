@@ -1,0 +1,13 @@
+includes:
+    - vendor/phpstan/phpstan-strict-rules/rules.neon
+    - vendor/phpstan/phpstan-phpunit/extension.neon
+    - vendor/phpstan/phpstan-phpunit/rules.neon
+    - phar://phpstan.phar/conf/bleedingEdge.neon
+parameters:
+    treatPhpDocTypesAsCertain: false
+    level: 9
+    paths:
+        - src
+        - tests
+    ignoreErrors:
+        - '#Dynamic call to static method PHPUnit\\Framework\\.*#'
