@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ProjectAutomatization\Builder;
+namespace ProjectAutomatization\Builder\Parser;
 
 readonly class Action
 {
